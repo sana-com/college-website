@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course</title>
+    
+    <style>
+    body {
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        background-image: url("./../img/courses.jpg");
+        /* Corrected background-image reference */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+    }
+    header, nav, div {
+        position: relative;
+        z-index: 2;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+   header {
+       background: linear-gradient(to left, #f59301, 
+       #fd7a00); 
+       color: #ffffff;
+       padding: 10px 20px;
+       text-align: right;
+       display: flexright;
+       align-items: right;
+       justify-content: right;
+       position: relative;
+   } 
+   header img {
+       position: absolute;
+       left: 30px;
+       height: 60px;
+       width: fit-content;
+   }
+   nav {
+       display: flex;
+       justify-content: right;
+       background: linear-gradient(#144bb1f3, #033186de); ;
+       padding: 10px 0;
+   }
+   nav a {
+       color: white;
+       text-decoration: none;
+       padding: 10px 20px;
+       margin: 0 10px;
+   }
+   nav a:hover {
+       background-color: #00215fc0;
+       border-radius: 5px;
+   }
+   footer {
+     background-color:#124475e8;
+     color: white;
+     padding: 10px 0;
+     text-align: center;
+     bottom: 0;
+     width: 100%;
+ }
+ .footer-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     padding: 0 20px;
+ }
+ .footer-container div {
+     margin: 10px;
+     flex: 1;
+ }
+ .footer-container a {
+     color: white;
+     text-decoration: none;
+     margin: 0 10px;
+ }
+ .footer-container a:hover {
+     text-decoration: underline;
+ }
+ .social-media a {
+     margin: 0 20px;
+ }
+</style>
+</head>
+<body>
+    <header>
+        <img src="./../img/nshmlogo.png" alt="logo">
+         <h1 style="font-size: 25px; text-align: right;">
+            NSHM Knowledge Campus Kolkata
+         </h1>
+         </header>
+         <nav>
+             <a href="homepg.html">Home</a>
+             <a href="about us page.html">About Us</a>
+             <a href="course.html">Courses</a>
+             <a href="admission.html">Admission</a>
+             <a href="contact.html">Contact Us</a>
+         </nav>
+
+         <div style="text-align: center; color: rgb(255, 255, 255); margin: 20px; font-size: 30px; font-weight: bold;">
+             <h2>Our Courses</h2>
+         </div>
+
+         <div style="margin: 20px; padding: 20px; background: rgba(255, 255, 255, 0.6); border-radius: 10px;">
+             <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                 <thead>
+                     <tr style="background-color: #da7416ab; color: rgb(255, 255, 255);">
+                         <th style="padding: 10px; border: 1px solid #ddd;">Course Name</th>
+                         <th style="padding: 10px; border: 1px solid #ddd;">Duration</th>
+                         <th style="padding: 10px; border: 1px solid #ddd;">Eligibility</th>
+                         <th style="padding: 10px; border: 1px solid #ddd;">Fees (Rupees)</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td style="padding: 10px; border: 1px solid #ddd;">B.Tech in Computer Science</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">4 Years</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">10+2 with PCM</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">8,00,000 per year</td>
+                     </tr>
+                     <tr>
+                         <td style="padding: 10px; border: 1px solid #ddd;">M.Tech in Computer Science</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">2 Years</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">Graduation</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">6,00,000 per year</td>
+                     </tr>
+                     <tr>
+                         <td style="padding: 10px; border: 1px solid #ddd;">B.Sc in Cyber security</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">4 Years</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">10+2 with PCM</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">4,00,000 per year</td>
+                     </tr>
+                     <tr>
+                         <td style="padding: 10px; border: 1px solid #ddd;">BCA</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">4 Years with PCM</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">10+2</td>
+                         <td style="padding: 10px; border: 1px solid #ddd;">4,00,000 per year</td>
+                     </tr>
+                        <tr>
+                            <td style="padding: 10px; border: 1px solid #ddd;">Bsc in Data Science</td>
+                            <td style="padding: 10px; border: 1px solid #ddd;">4 Years with PCM</td>
+                            <td style="padding: 10px; border: 1px solid #ddd;">10+2</td>
+                            <td style="padding: 10px; border: 1px solid #ddd;">4,00,000 per year</td>
+                        </tr>
+                     <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">BBA in Business Analytics</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">3 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">10+2</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">3,00,000 per year</td>
+                    </tr> 
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">MBA in Business Analytics</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">2 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Graduation</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">5,00,000 per year</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">BBA in Hospital Management</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">3 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">10+2</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">3,00,000 per year</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">MBA in Hospital Management</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">2 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Graduation</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">5,00,000 per year</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">BHM</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">4 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">10+2</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">4,00,000 per year</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">MHA</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">2 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Graduation</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">5,00,000 per year</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">BBA in Travel and Tourism</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">3 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">10+2</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">3,00,000 per year</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">MBA in Travel and Tourism</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">2 Years</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Graduation</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">5,00,000 per year</td>
+                    </tr> 
+                    </tbody>     
+                    </table>
+         </div>
+         <hr style="border: 15px solid #285581; width: 100%;">
+         <footer>
+          <div class="footer-container">
+              <div class="quick-links">
+                  <h3>Quick Links</h3>
+                  <a href="homepg.html">Home</a>
+                  <a href="about us page.html">About Us</a>
+                  <a href="course.html">Courses</a><br>
+                  <br>
+                  <a href="admission.html">Admission</a>
+                  <a href="contact.html">Contact Us</a>
+              </div>
+              <div class="address"> 
+                  <h3>Address</h3>
+                  <p>NSHM Knowledge Campus, Kolkata (estd. by H.C.G. Charitable 
+   Trust) 60, B.L. Saha Road, Kolkata, Pin 700 053
+                      (Formerly 124, B.L. Saha Road) </p>
+              </div>
+              <div class="social-media">
+                  <h3>Follow Us</h3>
+                  <a href=https://www.facebook.com/NSHMKnowledgeCampus/"" target="_blank">Facebook</a>
+                  <a href="https://www.instagram.com/nshmkc/?hl=en" target="_blank">Instagram</a>
+                  <a href="https://in.linkedin.com/company/nshmknowledgecampus" target="_blank">LinkedIn</a>
+              </div>
+          </div>
+          <div style="background-color:  #fd7a00; width: 100%; padding: 10px 
+   20px; margin-top: 20px;">
+              <p style="margin: 2; text-align: center;">Copyright &copy; 2025 NSHM 
+   Knowledge. All rights reserved.</p>
+          </div>
+      </footer>
+</body>
+</html>

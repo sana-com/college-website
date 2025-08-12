@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSHM Home Page</title>
+    <style>
+        body {
+            font-family: Georgia, Times, 'Times New Roman', serif;
+            background: linear-gradient(to bottom, #f563019a, #fffdf9be); 
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to left, #f59301, 
+            #fd7a00); 
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: right;
+            display: flex;
+            align-items: right;
+            justify-content: right;
+            position: relative;
+        } 
+        header img {
+            position: absolute;
+            left: 30px;
+            height: 60px;
+            width: fit-content;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            background: linear-gradient(#144bb1f3, #033186de); ;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #00215fc0;
+            border-radius: 5px;
+        }
+        .container {
+         display: flex;
+         justify-content: space-around;
+         padding: 20px;
+         margin: 10px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         font-size: 20px;
+        }
+        .box {
+            width: 30%;
+            height: auto;
+            border-radius: 8px;
+            text-align: center;
+            margin: 15px 15px;
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+            padding: 15px;
+            border: 1px solid #000000;   
+           
+        }
+        .box p {
+            margin: 10px 0;
+            color: black;
+        }
+        .campus {
+    position: relative;
+    text-align: center ;
+    color: white;
+    font-size: 20px;    
+    }
+       .banner image {
+            width: fit-content;
+            opacity: 0.8;
+    }
+        footer {
+            background-color: #124475e8;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        .footer-container div {
+            margin: 10px;
+            flex: 1;
+        }
+        .footer-container a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer-container a:hover {
+            text-decoration: underline;
+        }
+        .social-media a {
+            margin: 0 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+       <img src="./../img/nshmlogo.png" alt="logo">
+        <h1 style="font-size: 25px; text-align: right;"> NSHM Knowledge Campus Kolkata </h1>
+        </header>
+        <nav>
+            <a href="homepg.html">Home</a>
+            <a href="about us page.html">About Us</a>
+            <a href="course.html">Courses</a>
+            <a href="admission.html">Admission</a>
+            <a href="contact.html">Contact Us</a>
+        </nav> 
+    
+        <div class="campus">
+        <img src="./../img/banner.webp" alt="campus Image"></div>
+
+        <!-- Rolling text -->
+        <div style="text-align: center; margin: 0px 0; font-size: 24px; font-weight: bold; color: #ffffff; background: linear-gradient(#144bb1f3, #033186de); ; padding: 10px; width: 100%;">
+            <marquee behavior="scroll" direction="left">Admission Open for 2025 - Apply Now to Secure Your Spot!</marquee>
+        </div>
+
+
+        <br><br>
+        <div style="text-align: center; margin: 20px;">
+        <style>
+            button:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            }
+        </style>
+
+            <button style="padding: 15px 30px; margin: 0 10px; font-size: 18px; background-color: #144bb1f3; color: white; border: none; border-radius: 5px; cursor: pointer;" onclick="window.location.href='course.html'">
+                Explore Courses
+            </button>
+            <button style="padding: 15px 30px; margin: 0 10px; font-size: 18px; background-color: #f59301; color: white; border: none; border-radius: 5px; cursor: pointer;" onclick="window.location.href='admission.html'">
+                Apply for Admission
+            </button>
+        </div>
+        <br><br>
+    
+    <br><br>
+   <div style="text-align: center; color: rgb(2, 3, 65); margin: 20px; 
+   font-size: 20px; font-weight: bold;">
+        <h1>Welcome to NSHM Knowledge Campus Kolkata</h1>
+        <h2>Why Choose Us</h2>
+    </div>
+    <br><br>
+           
+
+        <div style="
+        display: flex; 
+        justify-content: center;
+        align-items: center;  
+        margin: 20px; 
+        box-sizing: border-box;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding: 20px;
+        background: linear-gradient(to left, #e46e0ec4, #e0a016a9);">
+
+                <img src="./../img/naac.jpg" alt="Naac grade" style="width: 80%; height: auto;">
+            </div>
+        
+    <div class="container">
+        <div class="box">
+            <p><b>Campus</b></p>
+            <img src="./../img/campus.jpg" alt="Image 1">
+            <p >Our Campus is equipped with modern facilities and technology to enhance 
+                the leraning experience </p>
+        </div>
+        <div class="box">
+         <p><b>Experienced Faculty</b></p>
+            <img src="./../img/faculty.jpg" alt="Image 2">
+            <p>Learn from Industry leaders and Academics Experts 
+                who are dedicated to students success</p>
+        </div>
+        <div class="box">
+       <p><b>Diverse Community</b></p>
+            <img src="./../img/community.jpg" alt="Image 3">
+            <p>Join a Vibrant,inclusive community that 
+                celebrates diversity and foster collaboration</p>
+        </div>
+    </div>  
+<br><br>
+<br><br>
+        <hr style="border: 15px solid #285581; width: 100%;">
+
+
+
+   
+    <footer>
+        <div class="footer-container">
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <a href="homepg.html">Home</a>
+                <a href="about us page.html">About Us</a>
+                <a href="course.html">Courses</a><br>
+                <br>
+                <a href="admission.html">Admission</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="address"> 
+                <h3>Address</h3>
+                <p>
+                    NSHM Knowledge Campus, Kolkata (estd. by H.C.G. Charitable Trust) 60, B.L. Saha Road, Kolkata, Pin 700 053
+                    (Formerly 124, B.L. Saha Road)
+                 </p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/NSHMKnowledgeCampus/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/nshmkc/?hl=en" target="_blank">Instagram</a>
+                <a href="https://in.linkedin.com/company/nshmknowledgecampus" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <div style="background-color:  #fd7a00; width: 100%; padding: 10px 20px; margin-top: 20px;">
+            <p style="margin: 2; text-align: center;">Copyright &copy; 2025 NSHM Knowledge. All rights reserved.</p>
+        </div>
+    </footer>
+    </body>
+    </html>
